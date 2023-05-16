@@ -1,0 +1,92 @@
+body{
+    background-color: #222831;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #00ADB5;
+}
+
+h1, #monospace{
+    font-family: monospace;
+}
+
+p{
+    color: #EEEEEE;
+}
+
+#body-branco{
+    background-color: #EEEEEE;
+}
+
+#link-nav{
+    color: #00ADB5;
+}
+
+.card-text{
+    color: #393E46;
+}
+
+.link-svg{
+    transition: 0.2s
+}
+
+.link-svg:hover{
+    transform: scale(1.2);
+}
+
+#foto-perfil{
+    transition: 0.3s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+#foto-perfil:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.header{
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+}
+
+#botao-primario{
+    background-color: #00ADB5;
+    transition: 0.3s;
+}
+
+#botao-primario:hover{
+    background-color: #00acb5a2;
+    transform: scale(1.05);
+}
+
+#curriculo-download{
+    color: white; 
+    text-decoration: none;
+}
+
+.link-cartao{
+    color: rgba(0, 0, 0, 0.65); 
+    text-decoration: none;
+}
+
+/* botao top */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 25px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    background-color: #222831;
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 8px; /* Some padding */
+    border-radius: 100px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    transition: 0.3s;
+  }
+  
+  #myBtn:hover {
+    transform: scale(1.2); 
+  }
