@@ -1,2 +1,2 @@
 # Portifolio-Bootstrap
-Portifolio feito utilizando Bootstrap para praticar a tecnologia
+Portfolio made using Bootstrap to practice the technology
